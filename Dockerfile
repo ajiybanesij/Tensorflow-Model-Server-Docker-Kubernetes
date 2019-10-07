@@ -26,7 +26,7 @@ RUN apt-get -y upgrade
 
 RUN apt-get -y dist-upgrade
 
-RUN apt -y install python-pip
+RUN apt-get -y install python-pip
 
 RUN pip install grpcio
 
