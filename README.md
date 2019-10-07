@@ -1,4 +1,12 @@
-# Tensorflow-Model-Server-Docker-Image
+# Tensorflow Model Server Docker Image
+
+You can make your Tensorflow model a Docker image by making changes to Dockerfile.
+
+## Requirement
+
+  Install [Docker](https://docs.docker.com/install/)
+
+## Usage
 
 ### 1. Step 
   - Copy the model file into the 'models' folder.
