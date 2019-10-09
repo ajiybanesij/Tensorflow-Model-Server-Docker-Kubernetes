@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: modeldeployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      name: app
+  template:
+    metadata:
+      labels:
+        name: app
+        app: app 
+    spec:
+      containers:
+      - name: tfsmodel
+        image: <IMAGE_NAME>
+        imagePullPolicy: Never
+        ports:
+          - containerPort: 8502 

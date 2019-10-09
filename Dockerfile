@@ -42,10 +42,6 @@ RUN apt-get -y update &&  apt-get -y install tensorflow-model-server
 
 COPY . /home
 
-# Define working directory.
 WORKDIR /home
-
-# Define default command.
-
 
 CMD [ "tensorflow_model_server", "--rest_api_port=8501", "--model_name=MODEL_NAME", "--model_base_path=/home/models/MODEL_NAME"]
