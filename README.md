@@ -7,8 +7,10 @@ Details at the [Wiki](https://github.com/ajiybanesij/Tensorflow-Model-Server-Doc
 ## Requirement
 
   Install [Docker](https://docs.docker.com/install/)
+  
+  Install [Kubernetes](https://vitux.com/?s=kubernetes)
 
-## Usage
+## Creation of Docker Image
 
 ### 1. Step 
   - Copy the model file into the 'models' folder.
@@ -32,3 +34,16 @@ Details at the [Wiki](https://github.com/ajiybanesij/Tensorflow-Model-Server-Doc
   ```sh
     localhost:8501
   ``` 
+  
+ ## Deploy Kubernetes
+  
+### 1. Step 
+  ```sh
+    $ cd kubernetesFiles
+  ```
+  
+### 2. Step 
+  ```sh
+    $ kubectl apply –f deployment.yaml
+    $ kubectl apply –f service.yaml
+  ```
