@@ -2,6 +2,8 @@
 
 You can make your Tensorflow model a Docker image by making changes to Dockerfile.
 
+Detail at the [Wiki](https://github.com/ajiybanesij/Tensorflow-Model-Server-Docker-Kubernetes/wiki#tensorflow-model-server-converting-docker-image).
+
 ## Requirement
 
   Install [Docker](https://docs.docker.com/install/)
