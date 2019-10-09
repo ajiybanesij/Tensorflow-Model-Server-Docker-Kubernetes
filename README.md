@@ -26,7 +26,7 @@ Details at the [Wiki](https://github.com/ajiybanesij/Tensorflow-Model-Server-Doc
 
 ### 4. Step
   ```sh
-    docker run -p 8501:8501 IMAGE_NAME  
+    $ docker run -p 8501:8501 IMAGE_NAME  
   ```
 
 ### 5. Step
