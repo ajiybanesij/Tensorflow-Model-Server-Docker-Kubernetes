@@ -1,4 +1,5 @@
 # Tensorflow Model Server Docker Image
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/ajiybanesij/Tensorflow-Model-Server-Docker-Kubernetes/blob/master/LICENSE)
 
 You can make your Tensorflow model a Docker image by making changes to Dockerfile and deploy to Kubernetes.
 
